@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style type="text/css">
+        .navigation-bar{
+        background-color:  rgb(124, 21, 14);
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+        }
+        .navigation-bar a {
+            float: left;
+            display: block;
+            color: rgb(126, 126, 126);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .navigation-bar a:hover {
+            color: rgb(124, 21, 14);
+            background-color:  rgb(231, 230, 230);;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: rgb(200,200,200);
+            margin-top: 60px;
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+
+
+        .footer{
+            background-color:  rgb(174, 174, 174);
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: left;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navigation-bar">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us!</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="feedback">Feedback:</label>
+            <input type="text" id="feedback" name="feedback" placeholder="Enter your feedback" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p>Email: <a href="mailto:YEF@gmail.com">YEF@gmail.com</a></p>
+        <p>Phone: <a href="tel:+18574418821">857-441-8821</a></p>
+    </div>
+
+    
+  
+  <footer class="footer">
+    Contact Us: </br>
+    Email: <a href="mailto:YEF@gmail.com" target="_blank">YEF@gmail.com</a> </br>
+    Phone: <a href="tel:+18574418821">857-441-8821</a>
+    
+</footer>
+</body>
+
+
+
+</html>

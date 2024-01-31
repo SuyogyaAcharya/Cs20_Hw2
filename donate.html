@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Donate</title>
+
+    <style type="text/css">
+        
+        .navigation-bar{
+            background-color:  rgb(124, 21, 14);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        .navigation-bar a {
+            float: left;
+            display: block;
+            color: rgb(126, 126, 126);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .navigation-bar a:hover {
+            color: rgb(124, 21, 14);
+            background-color:  rgb(231, 230, 230);;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(donatepic.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .donate {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 50px 0;
+            text-shadow: 2px 2px 4px rgb(173, 172, 172);
+        }
+
+        .donate-text {
+            background-color: rgb(200, 200, 200);
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 10px;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .donate-area {
+            background-color: rgb(200, 200, 200);
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            max-width: 500px;
+        }
+
+        .donate-list {
+            background-color: rgb(200, 200, 200);
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            max-width: 500px;
+            margin-bottom: 100px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        li:hover {
+            transform: scale(1.05);
+        }
+        
+        .footer{
+            background-color:  rgb(174, 174, 174);
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            
+            
+        }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us!</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="donate">
+            Donate Now!
+        </div>
+        <div class="donate-text">
+            Every contribution, regardless of its size, plays a crucial role in advancing our mission at the Youth Education Foundation. Your generous donation goes towards empowering underprivileged children in developing countries with access to quality education, essential resources, and the promise of a brighter future. At YEF, we believe that any amount makes a meaningful impact, fostering positive change and breaking the barriers to education. Join us in creating a world where every child's potential is recognized and celebrated. Your support fuels our commitment to building a more equitable and educated future for the youth of developing nations.
+        </div>
+
+        <div class="donate-area">
+            <h2>Donate Today!</h2>
+
+            <form action="#" method="post">
+                <label for="amount">Enter Donation Amount:</label>
+                <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+                <button type="submit">Donate Now</button>
+            </form>
+
+        </div>
+
+        <div class="donate-list">
+            <h2>Top Donors</h2>
+            <ul>
+                <li>John Doe - $500</li>
+                <li>Jane Smith - $300</li>
+                <li>Robert Johnson - $200</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        Contact Us: </br>
+        Email: <a href="mailto:YEF@gmail.com" target="_blank">YEF@gmail.com</a> </br>
+        Phone: <a href="tel:+18574418821">857-441-8821</a>
+        
+    </footer>
+    
+
+
+  </body>
+  
+
+
+
+</html>

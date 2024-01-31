@@ -1,0 +1,104 @@
+
+/* Navigation Bar*/
+.navigation-bar{
+    background-color:  rgb(124, 21, 14);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navigation-bar a {
+    float: left;
+    display: block;
+    color: rgb(126, 126, 126);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation-bar a:hover {
+    color: rgb(124, 21, 14);
+    background-color:  rgb(231, 230, 230);;
+}
+
+/* Organization name */
+.org-name{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px 0;
+    text-shadow: 2px 2px 4px rgb(173, 172, 172);
+}
+
+
+
+/* Images */
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 5px; 
+}
+
+/* Style for each image */
+.image-container img {
+    width: 30%; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 0.1%;
+}
+
+/*Mission Statement*/
+.Mis-statement{
+    background-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 20px
+}
+
+/* Past Projects */
+.past-projects {
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 900px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-text {
+    text-align: left;
+}
+.h1 {
+
+}
+
+/*Footer*/
+.footer{
+    background-color:  rgb(174, 174, 174);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
